@@ -1,0 +1,21 @@
+question,expected_source,ai_source,retrieval_correct,answer_correct,citation_correct,failure_type,prompt_version,notes
+What are the six functions of the NIST Cybersecurity Framework 2.0,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.2,
+What is the Govern function,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.2,
+What is the Identify function,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,partial,N,citation,V1.2,Uncited bullets and unverified ID.* codes
+What is the Protect function,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.2,Cited p.24-25 as a range; both pages retrieved
+What is the Detect function,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.2,
+What is the Respond function in the framework,NIST.CSWP.29.pdf.pdf,NIST.SP.800-61r3.pdf,N,partial,Y,retrieval,V1.2,CSF file only appeared at rank 8
+What is the Recover function in the framework,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.2,
+What are framework profiles,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.2,
+What is the difference between a current profile and a target profile,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.2,
+What are framework tiers,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,verify,Y,check p.29,V1.2,Tier 2 to 4 descriptions look generic; verify CSWP p.29
+What is incident response,NIST.SP.800-61r3.pdf,NIST.SP.800-61r3.pdf,Y,Y,N,citation,V1.2,Cited p.38-40 but p.39 and p.40 not retrieved
+What publication does SP 800-61r3 supersede,NIST.SP.800-61r3.pdf,none (refused),Y,N,n/a,generation,V1.2,Possible false refusal; verify p.3 for 'supersedes'
+What preparation activities should an organization do before an incident,NIST.SP.800-61r3.pdf,NIST.SP.800-61r3.pdf,Y,N,N,citation+generation,V1.2,Wrote literal [file p.X]; drifted to improvement topics
+What is the role of lessons learned after an incident,NIST.SP.800-61r3.pdf,NIST.SP.800-61r3.pdf,Y,Y,Y,none,V1.2,
+How do you write a chocolate chip cookie recipe,NONE,none (refused),n/a,Y,n/a,none,V1.2,"Trap question; correct refusal, no hallucination"
+What are categories and subcategories in the framework,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.2,Extra row 16
+What is the Respond function in the framework,NIST.CSWP.29.pdf.pdf,NIST.SP.800-61r3.pdf,Y,Y,Y,none,V1.3,n_results=10; fixed
+What is the Identify function,NIST.CSWP.29.pdf.pdf,NIST.CSWP.29.pdf.pdf,Y,Y,Y,none,V1.3,n_results=10; fixed
+What is incident response,NIST.SP.800-61r3.pdf,NIST.SP.800-61r3.pdf,Y,Y,Y,none,V1.3,"n_results=10; cited p.11 not in Sources panel, double-check"
+What preparation activities should an organization do before an incident,NIST.SP.800-61r3.pdf,NIST.SP.800-61r3.pdf,Y,partial,N,generation,V1.3,Malformed citation with RS.AN-07; still misses the question

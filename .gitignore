@@ -1,0 +1,5 @@
+venv/
+db/
+docs/
+__pycache__/
+*.pdf
