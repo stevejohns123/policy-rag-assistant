@@ -66,9 +66,8 @@ Includes one trap question (a cookie recipe) to test hallucination.
 ## Limitations
 
 - 16 questions, scored by hand, so treat the percentages as indicative only.
-- V1.3 was rerun only on the four failing questions, not the full set.
+- V1.3 numbers come from one full automated run of all 16 questions.
 - A 3B model is inconsistent between runs of the same question.
-- Two rows are still marked "verify" in `eval.csv`.
 
 ## Roadmap
 
