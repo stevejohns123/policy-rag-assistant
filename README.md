@@ -71,8 +71,7 @@ Includes one trap question (a cookie recipe) to test hallucination.
 
 ## Roadmap
 
-1. Rerun the full set on V1.3
-2. Add a script to score retrieval automatically
-3. Try a larger model and a reranker
-4. Move to AWS Bedrock
-5. Add AI security testing and NIST AI RMF governance mapping
+1. Add retrieval and citation scoring for answer text (LLM-as-judge)
+2. Try a larger model and a reranker
+3. Move to AWS Bedrock
+4. Add AI security testing and NIST AI RMF governance mapping
