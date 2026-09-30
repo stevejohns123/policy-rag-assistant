@@ -48,6 +48,8 @@ Includes one trap question (a cookie recipe) to test hallucination.
 
 ### Results
 
+**V1.3 (one automated run, hand-scored answers, 15 questions plus 1 trap):** 93% top-3 retrieval (14/15), 80% valid citations (12/15), 80% answer accuracy (12/15). The trap question was refused correctly.
+
 | Version | Change | Result |
 |---|---|---|
 | V1.0 | Basic prompt, 5 chunks | Answer missed facts present in retrieved text (generation failure) |
